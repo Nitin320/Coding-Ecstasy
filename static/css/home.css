@@ -1,0 +1,339 @@
+@media all and (min-width: 1200px){
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
+        height: 15vh;
+        align-items: center;
+        background: black;
+        color: cyan;
+        z-index: 10000;
+    }
+
+    .header{
+        flex: 1.5;
+        margin-left: 5vh;
+    }
+
+    .navitems {
+        margin-right: 5vh;
+        list-style: none;
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+    }
+
+    .navitems a{
+        color: cyan;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .navitems a:hover{
+        opacity: 0.5;
+        text-decoration: underline;
+        transition: 0.3s;
+        color: white;
+    }
+
+    .main{
+        background: url('/static/images/background.jpg');
+        margin-top: 2vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .head{
+        font-size: 30px;
+        color: cyan;
+        text-align: center;
+        margin-top: 1vh;
+    }                    
+
+    .content a{
+        color: cyan;
+        font-size: 30px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+
+    .content{
+        position: absolute;
+        left: 42%;
+        top: 100%;
+        padding:10px;
+        border: 5px solid cyan;
+        transition: 0.6s;
+        background: rgba(0, 0, 0, 0.61);
+        padding-bottom: 20vh;
+    }
+    .content:hover{
+        background: rgba(255, 255, 255, 0.473);
+        transition: 0.6s;
+    }
+
+    .main2{
+        background: url('/static/images/background2.png');
+        background-size: 40%;
+        background-repeat: no-repeat;
+        padding-bottom: 70vh;
+        background-position-x: right;
+        background-position-y: center;
+        padding-left: 3vh;
+        padding-bottom: 20vh;
+        background-color: rgba(0, 0, 0, 0.774);
+        border: 10px solid black;
+    }
+
+    .head2{
+        font: bolder;
+        font-size: 30px;
+        color: cyan;
+        text-decoration: underline;
+        padding-top: 5vh;
+        padding-left: 35vh;
+    }
+
+    .content2{
+        padding-top: 10vh;
+        color: cyan;
+        font: bolder;
+        font-size: 30px;
+        word-wrap: break-word;
+        padding-right: 85vh;
+    }
+
+    .main3{
+        background: url('/static/images/background3.webp');
+        background-size: 35%;
+        background-repeat: no-repeat;
+        margin-top: 5vh;
+        padding-bottom: 50vh;
+        padding-left: 2vh;
+        background-position-x: right;
+        background-position-y: 22vh;
+        border: 10px solid black;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+
+    .head3{
+        padding-top: 5vh;
+        padding-left: 40vh;
+        text-decoration: underline;
+        font-size: 30px;
+        color: cyan;
+        font: bolder;
+    }
+
+    .content3{
+        padding-top: 10vh;
+        font-size: 30px;
+        color: cyan;
+        font: bolder;
+        padding-right: 70vh;
+    }
+
+    .course{
+        position: absolute;
+        left: 23%;
+        padding: 10px;
+        border: 5px solid black;
+        background: rgba(0, 0, 0, 0.61);
+        transition: 0.6s;
+        margin-top: 10vh;
+    }
+    .course a{
+        color: cyan;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .course:hover{
+        background: rgba(255, 255, 255, 0.473);
+        transition: 0.6s;
+    }
+}
+
+
+@media all and (max-width: 1100px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+        display: 100%;
+    }
+    
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .navbar{
+        display: flex;
+        justify-content: center;
+        height: 15vh;
+        align-items: center;
+        background: black;
+        color: cyan;
+        z-index: 10000;
+    }
+    
+    .header{
+        flex: 1.5;
+        margin-left: 2vh;
+        font-size: 10px;
+    }
+    
+    .navitems {
+        margin-right: 2vh;
+        list-style: none;
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+    }
+    
+    .navitems a{
+        color: cyan;
+        text-decoration: none;
+        font-size: 9px;
+        font-weight: bolder;
+    }
+    .navitems a:hover{
+        opacity: 0.5;
+        text-decoration: underline;
+        transition: 0.3s;
+        color: white;
+    }
+    
+    .main{
+        background: url('/static/images/background.jpg');
+        margin-top: 1vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    
+    .head{
+        font-size: 15px;
+        color: cyan;
+        text-align: center;
+        padding-top: 6vh;
+        margin-bottom: 11vh;
+    }                    
+    
+    .content a{
+        color: cyan;
+        font-size: 15px;
+        font-weight: bolder;
+        text-decoration: none;
+    }
+    
+    .content{
+        position: absolute;
+        left:37%;
+        top: 38vh;
+        padding:10px;
+        border: 3px solid cyan;
+        transition: 0.6s;
+        background: rgba(0, 0, 0, 0.61);
+    }
+    .content:hover{
+        background: rgba(255, 255, 255, 0.473);
+        transition: 0.6s;
+    }
+    
+    .main2{
+        background: url('/static/images/background2.png');
+        margin-top: 3vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        background-position-y: 25%;
+        padding-left: 3vh;
+        background-color: rgba(0, 0, 0, 0.774);
+        border: 10px solid black;
+    }
+    
+    .head2{
+        font: bolder;
+        font-size: 20px;
+        color: cyan;
+        text-decoration: underline;
+        padding-top: 2vh;
+        text-align: center;
+    }
+    
+    .content2{
+        padding-top: 50vh;
+        padding-bottom: 5vh;
+        padding-right: 2vh;
+        color: cyan;
+        font: bolder;
+        font-size: 20px;
+        word-wrap: break-word;
+        text-align: center;
+    }
+    
+    .main3{
+        background: url('/static/images/background3.webp');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 5vh;
+        padding-bottom: 70vh;
+        padding-left: 2vh;
+        background-position-x: right;
+        background-position-y: 22vh;
+        border: 10px solid black;
+        background-color: rgba(0, 0, 0, 0.774);
+    }
+    
+    .head3{
+        padding-top: 5vh;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 20px;
+        color: cyan;
+        font: bolder;
+    }
+    
+    .content3{
+        padding-top: 50vh;
+        padding-right: 3vh;
+        font-size: 20px;
+        text-align: center;
+        color: cyan;
+        font: bolder;
+    }
+    
+    .course{
+        position: absolute;
+        left: 30%;
+        padding: 10px;
+        border: 5px solid black;
+        background: rgba(0, 0, 0, 0.61);
+        transition: 0.6s;
+        margin-top: 10vh;
+    }
+    .course a{
+        color: cyan;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    .course:hover{
+        background: rgba(255, 255, 255, 0.473);
+        transition: 0.6s;
+    }
+}
+
+
+
